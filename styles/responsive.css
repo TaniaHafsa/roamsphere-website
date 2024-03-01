@@ -1,0 +1,71 @@
+/* for mobile devices */
+
+
+@media screen and (max-width:576px) {
+
+  nav,
+  .menu,
+  .menu ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+
+  nav {
+    padding-left: 400px;
+  }
+
+  .menu ul {
+    margin-top: -40px;
+  }
+
+  .menu ul li {
+    padding: 20px 0;
+
+  }
+
+  .logo-game {
+    padding: 30px;
+  }
+
+
+  .instantly {
+    flex-direction: column;
+  }
+
+  .instantly .section-title {
+    padding-left: 50px;
+    text-align-last: left;
+  }
+
+  .instantly-content {
+    padding-left: 370px;
+    width: 100%;
+  }
+
+  .instantly-content>.text-light-grey {
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .instantly-img {
+    width: 100%;
+  }
+
+  .instantly-img .img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .instantly-img {
+    width: 50%;
+    height: 50%;
+
+    right: 50px;
+    bottom: 160px;
+  }
+
+
+}
