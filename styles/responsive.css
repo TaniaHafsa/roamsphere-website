@@ -67,6 +67,77 @@
     bottom: 160px;
   }
 
+/* deals section */
+
+.deal {
+  border: 1px solid #FDCEDF;
+  margin: 50px auto;
+  width: 90%;
+  height: auto; 
+  
+  padding: 20px; 
+}
+
+.deal-title {
+  color: #272727;
+  text-align: center;
+  font-size: 30px; 
+  font-weight: 800;
+  margin-top: 50px; 
+  margin-bottom: 15px; 
+}
+
+.deal-paragraph {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 24px; 
+}
+
+.deal-form {
+  margin-top: 20px; 
+  text-align: center; 
+}
+
+.deal-form #email {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 80%; 
+  max-width: 300px; 
+  
+  margin-bottom: 10px; 
+}
+
+.deal-form #submit {
+  width: 80%; 
+  max-width: 200px; 
+  height: 42px;
+  
+  
+  font-size: 16px; 
+  letter-spacing: 1px; 
+  border-radius: 5px;
+}
+
+.deal {
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.deal-title {
+  font-size: 24px; 
+  margin-top: 30px; 
+  margin-bottom: 10px; 
+}
+
+.deal-paragraph {
+  font-size: 14px; 
+  line-height: 20px; 
+}
+
+
+
   /* footer */
 
 
